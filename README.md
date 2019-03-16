@@ -1,4 +1,4 @@
-# ✔️ VDS Auto Config
+# ✔ VDS Auto Config
 
 ![](https://img.shields.io/badge/version-1.0.0-green.svg?style=flat) [![license](https://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://github.com/koddr/vdsac/blob/master/LICENSE.md)
 
