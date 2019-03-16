@@ -13,3 +13,7 @@ $ sudo ./init.sh
 #### Init options
 
 * `auto` — automatic installation
+
+### Enjoy your VDS!
+
+<center>![](https://www.commitstrip.com/wp-content/uploads/2017/04/Strip-Severless-650-finalenglishV2.jpg)</center>
