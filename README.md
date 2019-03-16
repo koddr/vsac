@@ -1,4 +1,4 @@
-# VDS Auto Config
+# ✔️ VDS Auto Config
 
 ### For GNU/Linux Debian 9 Stretch
 
