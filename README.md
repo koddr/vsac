@@ -16,4 +16,4 @@ $ sudo ./init.sh
 
 ### Enjoy your VDS!
 
-<center>![](https://www.commitstrip.com/wp-content/uploads/2017/04/Strip-Severless-650-finalenglishV2.jpg)</center>
+![image](https://user-images.githubusercontent.com/11155743/54482355-139c3300-4853-11e9-97f8-f3f865c7c16f.png)
