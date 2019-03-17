@@ -68,8 +68,6 @@ sudo systemctl unmask nginx
 sudo systemctl enable nginx
 # Start
 sudo service nginx start
-# Show version
-nginx -v
 # Reload
 sudo nginx -s reload
 sudo nginx -t

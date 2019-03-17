@@ -1,6 +1,7 @@
 #!/bin/bash
 # Colors
 GREEN="\033[0;32m"
+YELLOW="\033[1;33m"
 WHITE="\033[1;37m"
 RED="\033[0;31m"
 NC="\033[0m"
@@ -24,32 +25,35 @@ then
     sudo tar -xzvf Python-$version.tgz
     # Configure
     sudo Python-$version/configure --enable-optimizations
-    # Make Python build
-    sudo make
-    # Build finished message
+    # Build started message
     {
         echo ""
         echo "░"
-        echo -e "░ ${GREEN}✔ Python build finished successfully!${NC}"
+        echo -e "░ ${GREEN}✔ Python $version build configured successfully!${NC}"
         echo "░"
-        echo "░ Starting install Python $version..."
+        echo -e "░ ${YELLOW}Compiling Python $version build...${NC}"
         echo "░ Wait, please. This process may take some time!"
         echo "░"
-        echo ""
+    }
+    # Make Python build
+    sudo make > /dev/null 2>&1
+    # Build finished message
+    {
+        echo -e "░ ${GREEN}✔ Python $version build compiled successfully!${NC}"
+        echo "░"
+        echo -e "░ ${YELLOW}Installing Python $version...${NC}"
+        echo "░ Wait, please. This process may take some time!"
+        echo "░"
     }
     # Install
     sudo make install > /dev/null 2>&1
-    # Show version
-    python3 --version
     # CLean up
     sudo apt autoremove
     sudo rm -rf /temp/Python-$version
     sudo rm /temp/Python-$version.tgz
     # Exit message
     {
-        echo ""
-        echo "░"
-        echo -e "░ ${GREEN}✔ Python $version installed!${NC}"
+        echo -e "░ ${GREEN}✔ Python $version installed successfully!${NC}"
         echo "░"
         echo ""
     }
