@@ -32,10 +32,8 @@ then
         echo "░"
         echo -e "░ ${GREEN}✔ Python build finished successfully!${NC}"
         echo "░"
-        echo "░ Next step:"
-        echo "░"
-        echo "░   Install configured Python $version."
-        echo "░   Wait, please. This process may take some time!"
+        echo "░ Starting install Python $version..."
+        echo "░ Wait, please. This process may take some time!"
         echo "░"
         echo ""
     }
