@@ -2,8 +2,6 @@
 # Colors
 GREEN="\033[0;32m"
 NC="\033[0m"
-# Home dir
-cd ~
 # Add deb repo
 {
     sudo echo ""
@@ -37,6 +35,7 @@ http {
 
     access_log off;
     error_log /var/log/nginx/error.log crit;
+    server_tokens off;
 
     keepalive_timeout 30;
     keepalive_requests 100;
@@ -56,8 +55,9 @@ http {
     open_file_cache_errors on;
 
     gzip on;
+    gzip_comp_level 5;
     gzip_disable "msie6";
-    gzip_types text/plain text/css application/json application/x-javascript text/xml application/xml application/xml+rss text/javascript application/javascript;
+    gzip_types text/plain text/css application/json application/x-javascript text/xml application/xml application/xml+rss text/javascript application/javascript image/svg+xml image/gif image/png image/jpeg image/x-icon image/webp;
 
     include /etc/nginx/conf.d/*.conf;
 }

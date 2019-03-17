@@ -31,9 +31,9 @@ do
                 case $version in
                     Stretch)
                         # Init VDSAC for Debian Stretch
-                        sudo chmod u+x ./debian/stretch/init.sh
-                        sudo ./debian/stretch/init.sh debian stretch $1 $2
-                        exit
+                        sudo chmod +x ./debian/stretch/init.sh
+                        sudo ./debian/stretch/init.sh $@
+                        break
                         ;;
                     *)
                         echo ""
@@ -45,7 +45,7 @@ do
                         ;;
                 esac
             done
-            exit
+            break
             ;;
         *)
             echo ""
