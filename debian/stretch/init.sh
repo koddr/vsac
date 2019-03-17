@@ -35,11 +35,13 @@ do
                 fi
             else
                 # Error
-                echo ""
-                echo "░"
-                echo -e "░ ${RED}Value for option $1 is required.${NC}"
-                echo "░"
-                echo ""
+                {
+                    echo ""
+                    echo "░"
+                    echo -e "░ ${RED}Value for option $1 is required.${NC}"
+                    echo "░"
+                    echo ""
+                }
                 exit
             fi
             shift
@@ -54,11 +56,13 @@ do
                 sudo ./debian/stretch/python3.sh $2
             else
                 # Error
-                echo ""
-                echo "░"
-                echo -e "░ ${RED}Value for option $1 is required.${NC}"
-                echo "░"
-                echo ""
+                {
+                    echo ""
+                    echo "░"
+                    echo -e "░ ${RED}Value for option $1 is required.${NC}"
+                    echo "░"
+                    echo ""
+                }
                 exit
             fi
             shift

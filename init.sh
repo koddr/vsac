@@ -36,11 +36,13 @@ do
                         break
                         ;;
                     *)
-                        echo ""
-                        echo "░"
-                        echo -e "░ ${RED}Unknown $distribution version ($version).${NC}"
-                        echo "░"
-                        echo ""
+                        {
+                            echo ""
+                            echo "░"
+                            echo -e "░ ${RED}Unknown $distribution version ($version).${NC}"
+                            echo "░"
+                            echo ""
+                        }
                         exit
                         ;;
                 esac
@@ -48,11 +50,13 @@ do
             break
             ;;
         *)
-            echo ""
-            echo "░"
-            echo -e "░ ${RED}Unknown GNU/Linux distribution ($distribution).${NC}"
-            echo "░"
-            echo ""
+            {
+                echo ""
+                echo "░"
+                echo -e "░ ${RED}Unknown GNU/Linux distribution ($distribution).${NC}"
+                echo "░"
+                echo ""
+            }
             exit
             ;;
     esac
