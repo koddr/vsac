@@ -1,6 +1,6 @@
 # ✔ VDS Auto Config
 
-![version](https://img.shields.io/badge/version-1.0.0-green.svg?style=flat) ![linux](https://img.shields.io/badge/supports-Debian,_Ubuntu-blue.svg?style=flat) [![license](https://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://github.com/koddr/vdsac/blob/master/LICENSE.md)
+![version](https://img.shields.io/badge/version-1.1.0-green.svg?style=flat) ![linux](https://img.shields.io/badge/supports-Debian,_Ubuntu-blue.svg?style=flat) [![license](https://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://github.com/koddr/vdsac/blob/master/LICENSE.md)
 
 ### For GNU/Linux Debian 9 Stretch
 
@@ -14,12 +14,13 @@ Run `init.sh` from root dir:
 
 ```bash
 $ cd vdsac
-$ sudo chmod u+x init.sh
-$ sudo ./init.sh
+$ sudo chmod +x ./init.sh
+$ sudo ./init.sh [OPTIONS]
 ```
-#### Init options
+#### Options
 
-* `auto` — automatic installation
+* `--webserver [NAME]` — web server name, you want to install (support: `nginx`);
+* `--python [VERSION]` — Python 3 version, you want to install (support: `3.5.x`, `3.6.x`, `3.7.x`)
 
 ### Nginx configuration
 
