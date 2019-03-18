@@ -2,7 +2,11 @@
 
 ![version](https://img.shields.io/badge/version-1.1.0-green.svg?style=flat) ![linux](https://img.shields.io/badge/supports-Debian,_Ubuntu-blue.svg?style=flat) [![license](https://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://github.com/koddr/vdsac/blob/master/LICENSE.md)
 
-### For GNU/Linux Debian 9 Stretch
+Аutomation of routine tasks on a new server **for humans**. Only **verified** configs and **best** practices. 
+
+#### Just `git clone` and run it!
+
+## For GNU/Linux Debian 9 Stretch
 
 Clone this repo:
 
@@ -17,7 +21,7 @@ $ cd vdsac
 $ sudo chmod +x ./init.sh
 $ sudo ./init.sh [OPTIONS]
 ```
-#### Options
+### Options
 
 * `--webserver [NAME]` — web server name, you want to install (support: `nginx`);
 * `--python [VERSION]` — Python 3 version, you want to install (support: `3.5.x`, `3.6.x`, `3.7.x`)
@@ -68,6 +72,6 @@ http {
 }
 ```
 
-### Enjoy configured VDS 🎉
+## Enjoy the configured server 🎉
 
 ![serverless](https://user-images.githubusercontent.com/11155743/54482355-139c3300-4853-11e9-97f8-f3f865c7c16f.png)
