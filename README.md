@@ -2,7 +2,7 @@
 
 ![version](https://img.shields.io/badge/version-1.1.0-green.svg?style=flat) ![linux](https://img.shields.io/badge/supports-Debian,_Ubuntu-blue.svg?style=flat) [![license](https://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://github.com/koddr/vdsac/blob/master/LICENSE.md)
 
-✔ Аutomation of routine tasks on a new server for humans. Only verified configs and best practices. Just git clone and run it!
+Аutomation of routine tasks on a new server **for humans**. Only **verified** configs and **best** practices. Just `git clone` and run it!
 
 ### For GNU/Linux Debian 9 Stretch
 
