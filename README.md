@@ -14,7 +14,7 @@ Clone this repo:
 $ git clone git@github.com:koddr/vdsac.git
 ```
 
-Run `init.sh` from root dir:
+Run `./init.sh` from root dir:
 
 ```bash
 $ cd vdsac

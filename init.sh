@@ -10,23 +10,23 @@ NC="\033[0m"
     echo ""
     echo "╔═══════════════════════════════════╗"
     echo "║                                   ║"
-    echo -e "║     ${GREEN}✔ VDS Auto Config${NC} ${YELLOW}1.0.0${NC}       ║"
+    echo -e "║     ${GREEN}✔ VDS Auto Config${NC} ${YELLOW}1.1.0${NC}       ║"
     echo -e "║      ${WHITE}github.com/koddr/vdsac${NC}       ║"
     echo "║                                   ║"
     echo "╚═══════════════════════════════════╝"
     echo ""
 }
 # Choose system
-PS3="Choose GNU/Linux distribution [1-3] → "
+PS3="Choose GNU/Linux distribution [1-2] → "
 # Select system
-select distribution in Debian Ubuntu Centos
+select distribution in Debian Ubuntu
 do
     case $distribution in
         Debian)
             # Choose system version
-            PS3="Choose $distribution version [1-2] → "
+            PS3="Choose $distribution version [1] → "
             # Select version
-            select version in Stretch Jessie
+            select version in Stretch
             do
                 case $version in
                     Stretch)
