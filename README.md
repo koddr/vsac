@@ -72,6 +72,10 @@ http {
 }
 ```
 
+### Other usefull Bash scripts for automatisation
+
+* [SSL] Let's Encrypt — https://github.com/Neilpang/acme.sh
+
 ## Enjoy the configured server 🎉
 
 ![serverless](https://user-images.githubusercontent.com/11155743/54482355-139c3300-4853-11e9-97f8-f3f865c7c16f.png)
