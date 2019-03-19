@@ -73,7 +73,7 @@ http {
 }
 ```
 
-### Other usefull Bash scripts for automatisation
+## Other usefull Bash scripts for automatization
 
 * [SSL] Let's Encrypt — https://github.com/Neilpang/acme.sh
 
