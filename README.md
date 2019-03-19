@@ -1,6 +1,6 @@
 # ✔ VDS Auto Config
 
-![version](https://img.shields.io/badge/version-1.1.0-green.svg?style=flat) ![linux](https://img.shields.io/badge/supports-Debian,_Ubuntu-blue.svg?style=flat) [![license](https://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://github.com/koddr/vdsac/blob/master/LICENSE.md)
+![version](https://img.shields.io/badge/version-1.2.0-green.svg?style=flat) ![linux](https://img.shields.io/badge/supports-Debian,_Ubuntu-blue.svg?style=flat) [![license](https://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://github.com/koddr/vdsac/blob/master/LICENSE.md)
 
 Аutomation of routine tasks on a new server **for humans**. Only **verified** configs and **best** practices. 
 
@@ -25,6 +25,7 @@ $ sudo ./init.sh [OPTIONS]
 
 * `--webserver [NAME]` — web server name, you want to install (support: `nginx`);
 * `--python [VERSION]` — Python 3 version, you want to install (support: `3.5.x`, `3.6.x`, `3.7.x`)
+* `--postgresql [DATABASE]` — PostgreSQL with database name, you want to install
 
 ### Nginx configuration
 

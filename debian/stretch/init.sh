@@ -67,6 +67,27 @@ do
             fi
             shift
             ;;
+        --postgresql)
+            # Check option value
+            if ! [[ -z "$2" ]]
+            then
+                # Init bash scripts
+                sudo chmod +x ./debian/stretch/postgresql.sh
+                # Install PostgreSQL
+                sudo ./debian/stretch/postgresql.sh $2
+            else
+                # Error
+                {
+                    echo ""
+                    echo "░"
+                    echo -e "░ ${RED}Value for option $1 is required.${NC}"
+                    echo "░"
+                    echo ""
+                }
+                exit
+            fi
+            shift
+            ;;
         --)
             shift
             break
@@ -86,7 +107,11 @@ do
                 echo "░"
                 echo "░   Update Python 3"
                 echo "░"
-                echo -e "░     ${WHITE}$ ${NC}${GREEN}sudo${NC} ${YELLOW}./debian/stretch/python3.sh <version>${NC}"
+                echo -e "░     ${WHITE}$ ${NC}${GREEN}sudo${NC} ${YELLOW}./debian/stretch/python3.sh [VERSION]${NC}"
+                echo "░"
+                echo "░   Istall PostgreSQL"
+                echo "░"
+                echo -e "░     ${WHITE}$ ${NC}${GREEN}sudo${NC} ${YELLOW}./debian/stretch/postgresql.sh [DATABASE]${NC}"
                 echo "░"
                 echo ""
             }
