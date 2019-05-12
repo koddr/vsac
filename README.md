@@ -80,3 +80,17 @@ http {
 ## Enjoy the configured server 🎉
 
 ![serverless](https://user-images.githubusercontent.com/11155743/54482355-139c3300-4853-11e9-97f8-f3f865c7c16f.png)
+
+## Author & maintainers
+
+Development and maintenance engaged by [Vic Shóstak](https://github.com/koddr) (aka Koddr).
+
+If you want to say «thank you» or/and support active development `VDS Auto Config` — become a Patron!
+
+<a href="https://www.patreon.com/bePatron?u=20124951">
+  <img width="200px" src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" alt="Become a Patron!"/>
+</a>
+
+## License
+
+MIT
