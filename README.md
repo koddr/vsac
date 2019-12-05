@@ -1,4 +1,4 @@
-# ✔ VDS Auto Config
+# ✅ VDS Auto Config
 
 ![version](https://img.shields.io/badge/version-1.2.0-green.svg?style=flat) ![linux](https://img.shields.io/badge/supports-Debian,_Ubuntu-blue.svg?style=flat) [![license](https://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://github.com/koddr/vdsac/blob/master/LICENSE.md)
 
