@@ -93,11 +93,7 @@ If you want to say «thank you» or/and support active development `VDS Auto Con
 
 1. Add a GitHub Star to project.
 2. Twit about project [on your Twitter](https://twitter.com/intent/tweet?text=%23%D0%90utomation%20of%20routine%20tasks%20on%20a%20new%20%23VDS%20%23server%20for%20%23humans%20%F0%9F%8E%89%20Only%20verified%20%23configs%20and%20%23best%20practices%20%F0%9F%91%8D&url=https%3A%2F%2Fgithub.com%2Fkoddr%2Fvdsac).
-3. Help project with some money, become a Patron:
-
-<a href="https://www.patreon.com/bePatron?u=20124951">
-  <img width="200px" src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" alt="Become a Patron!"/>
-</a>
+3. If you want, send to project's author some money via PayPal: [@paypal.me/koddr](https://paypal.me/koddr?locale.x=en_EN).
 
 ## License
 
