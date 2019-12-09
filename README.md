@@ -1,4 +1,4 @@
-# ✅ VDS Auto Config
+# ✅ Virtual Server Auto Config
 
 ![version](https://img.shields.io/badge/version-1.2.0-green.svg?style=flat) ![linux](https://img.shields.io/badge/supports-Debian,_Ubuntu-blue.svg?style=flat) [![license](https://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://github.com/koddr/vdsac/blob/master/LICENSE.md)
 
@@ -13,20 +13,20 @@ Just `git clone` and run it!
 Clone this repo:
 
 ```console
-foo@bar:~$ git clone https://github.com/koddr/vdsac.git
+foo@bar:~$ git clone https://github.com/koddr/vsac.git
 ```
 
 Run `./init.sh` from root dir:
 
 ```console
-foo@bar:~$ cd vdsac
+foo@bar:~$ cd vsac
 foo@bar:~$ sudo chmod +x ./init.sh
 foo@bar:~$ sudo ./init.sh [OPTIONS]
 ```
 ### Options
 
 * `--webserver [NAME]` — web server name, you want to install (support: `nginx`);
-* `--python [VERSION]` — Python 3 version, you want to install (support: `3.5.x`, `3.6.x`, `3.7.x`)
+* `--python [VERSION]` — Python 3 version, you want to install (support: `3.5.x`, `3.6.x`, `3.7.x`, `3.8.x`)
 * `--postgresql [DATABASE]` — PostgreSQL with database name, you want to install
 
 ### Nginx configuration
@@ -89,10 +89,10 @@ http {
 
 ## Project assistance
 
-If you want to say «thank you» or/and support active development `VDS Auto Config`:
+If you want to say «thank you» or/and support active development `Virtual Server Auto Config`:
 
 1. Add a GitHub Star to project.
-2. Twit about project [on your Twitter](https://twitter.com/intent/tweet?text=%23%D0%90utomation%20of%20routine%20tasks%20on%20a%20new%20%23VDS%20%23server%20for%20%23humans%20%F0%9F%8E%89%20Only%20verified%20%23configs%20and%20%23best%20practices%20%F0%9F%91%8D&url=https%3A%2F%2Fgithub.com%2Fkoddr%2Fvdsac).
+2. Twit about project [on your Twitter](https://twitter.com/intent/tweet?text=%23%D0%90utomation%20of%20routine%20tasks%20on%20a%20new%20%23VDS%20%23server%20for%20%23humans%20%F0%9F%8E%89%20Only%20verified%20%23configs%20and%20%23best%20practices%20%F0%9F%91%8D&url=https%3A%2F%2Fgithub.com%2Fkoddr%2Fvsac).
 3. If you want, send to project's author some money via PayPal: [@paypal.me/koddr](https://paypal.me/koddr?locale.x=en_EN).
 
 ## License
