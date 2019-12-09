@@ -13,7 +13,7 @@ else
     read -p "Enter Python 3 version to install [ex. 3.7.0] → " version
 fi
 # Check Python version
-if [[ "$version" =~ ^(3\.)?([5-7]\.)?([0-9])$ ]]
+if [[ "$version" =~ ^(3\.)?([5-8]\.)?([0-9])$ ]]
 then
     # Install dependencies
     sudo apt install build-essential libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev zlib1g -y
