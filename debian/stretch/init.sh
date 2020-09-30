@@ -109,7 +109,7 @@ do
                 echo "░"
                 echo -e "░     ${WHITE}$ ${NC}${GREEN}sudo${NC} ${YELLOW}./debian/stretch/python3.sh [VERSION]${NC}"
                 echo "░"
-                echo "░   Istall PostgreSQL"
+                echo "░   Install PostgreSQL"
                 echo "░"
                 echo -e "░     ${WHITE}$ ${NC}${GREEN}sudo${NC} ${YELLOW}./debian/stretch/postgresql.sh [DATABASE]${NC}"
                 echo "░"
